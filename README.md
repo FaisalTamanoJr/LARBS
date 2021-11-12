@@ -5,8 +5,8 @@
 On an Arch-based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
-sh larbs.sh
+git clone https://github.com/FaisalTamanoJr/install_script.git
+sh install.sh
 ```
 
 That's it.
@@ -22,7 +22,7 @@ with a fully configured diving-board for work or more customization.
 ## Customization
 
 By default, LARBS uses the programs [here in progs.csv](progs.csv) and installs
-[my dotfiles repo (voidrice) here](https://github.com/lukesmithxyz/voidrice),
+[my dotfiles repo here](https://github.com/FaisalTamanoJr/dotfiles),
 but you can easily change this by either modifying the default variables at the
 beginning of the script or giving the script one of these options:
 
