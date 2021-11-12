@@ -1,4 +1,4 @@
-# Luke's Auto-Rice Bootstrapping Scripts (LARBS)
+# My Install Script (forked from LARBS by Luke Smith)
 
 ## Installation:
 
