@@ -175,6 +175,7 @@ installationloop() {
 		esac
 	done < /tmp/progs.csv
 }
+
 putgitrepo() {
 	# Downloads a gitrepo $1 and places the files in $2 only overwriting conflicts
 	dialog --infobox "Downloading and installing config files..." 4 60
@@ -190,7 +191,7 @@ putgitrepo() {
 
 vimplugininstall() {
 	# Installs vim plugins.
-	whiptail --infobox "Installing neovim plugins..." 7 60
+	dialog --infobox "Installing neovim plugins..." 7 60
 	mkdir -p "/home/$name/.config/nvim/autoload"
 	curl -Ls "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim" >  "/home/$name/.config/nvim/autoload/plug.vim"
 	chown -R "$name:wheel" "/home/$name/.config/nvim"
