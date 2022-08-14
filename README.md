@@ -6,7 +6,7 @@ On an Arch-based distribution as root, run the following:
 
 ```
 git clone https://github.com/FaisalTamanoJr/install_script.git
-sh install.sh
+sh install_script/install.sh
 ```
 
 That's it.
